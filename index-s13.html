@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Product Card/Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles-shoes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  </head>
+  <body>
+
+    <header class="header">
+      <nav class="navbar">
+          <a href="index.html" class="nav-logo"><img src="img\logo.jpeg"></a>
+          <ul class="nav-menu">
+              <li class="nav-item">
+                  <a href="men.html" class="nav-link">MEN</a>
+              </li>
+              <li class="nav-item">
+                  <a href="women.html" class="nav-link">WOMEN</a>
+              </li>
+          </ul>
+          <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+          </div>
+          <ul class="nav-buttons">
+              <li>
+                  <div class="search-button">
+                      <a href="">
+                          <img src="img\search.png" height="30vw" width="30vw" class="nav_search">
+                      </a>
+                  </div>
+              </li>
+              <li>
+                  <div class="account">
+                      <a href="">
+                          <img src="img\fav.png" height="30vw" width="30vw">
+                      </a>
+                  </div>
+              </li>
+              <li>
+                  <div class="cart">
+                      <a href="">
+                          <img src="img\cart.png" height="30vw" width="30vw">
+                      </a>
+                  </div>
+              </li>
+          </ul>
+      </nav>
+  </header>
+    
+    <div class = "card-wrapper">
+      <div class = "card">
+        <div class = "product-imgs">
+          <div class = "img-display">
+            <div class = "img-showcase">
+              <img src = "img\s13_1.png" alt = "shoe image">
+              <img src = "img\s13_2.png" alt = "shoe image">
+              <img src = "img\s13_3.png" alt = "shoe image">
+              <img src = "img\s13_4.png" alt = "shoe image">
+            </div>
+          </div>
+          <div class = "img-select">
+            <div class = "img-item">
+              <a href = "#" data-id = "1">
+                <img src = "img\s13_1.png" alt = "shoe image">
+              </a>
+            </div>
+            <div class = "img-item">
+              <a href = "#" data-id = "2">
+                <img src = "img\s13_2.png" alt = "shoe image">
+              </a>
+            </div>
+            <div class = "img-item">
+              <a href = "#" data-id = "3">
+                <img src = "img\s13_3.png" alt = "shoe image">
+              </a>
+            </div>
+            <div class = "img-item">
+              <a href = "#" data-id = "4">
+                <img src = "img\s13_4.png" alt = "shoe image">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class = "product-content">
+          <h2 class = "product-title">Adios Polo Assn</h2>
+          <a href = "index.html" class = "product-link">Visit Adios Store</a>
+          <div class = "product-rating">
+            <i class = "fas fa-star"></i>
+            <i class = "fas fa-star"></i>
+            <i class = "fas fa-star"></i>
+            <i class = "fas fa-star"></i>
+            <i class = "fas fa-star-half-alt"></i>
+            <span>4.7(21)</span>
+          </div>
+
+          <div class = "product-price">
+            <p class = "last-price">Old Price: <span>$257.00</span></p>
+            <p class = "new-price">New Price: <span>$249.00 (5%)</span></p>
+          </div>
+
+          <div class = "product-detail">
+            <h2>about this item: </h2>
+            <p>MADE FROM</p>
+            <p>covering-polyester
+              inside cotton
+              sole polyester
+            </p>
+            <ul>
+              <li>Color: <span>Black</span></li>
+              <li>Available: <span>in stock</span></li>
+              <li>Category: <span>Shoes</span></li>
+              <li>Shipping Area: <span>All over the world</span></li>
+              <li>Shipping Fee: <span>Free</span></li>
+            </ul>
+          </div>
+
+          <div class = "purchase-info">
+            <input type = "number" min = "0" value = "1">
+            <button type = "button" class = "btn">
+              Add to Cart <i class = "fas fa-shopping-cart"></i>
+            </button>
+      
+          </div>
+
+          <div class = "social-links">
+            <p>Share At: </p>
+            <a href = "#">
+              <i class = "fab fa-facebook-f"></i>
+            </a>
+            <a href = "#">
+              <i class = "fab fa-twitter"></i>
+            </a>
+            <a href = "#">
+              <i class = "fab fa-instagram"></i>
+            </a>
+
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section>
+      <div class="end-bar">
+          <div class="follow-bar">
+              <ul class="follow-bar-list">
+                  <li><a href=""><img src="img\facebook logo.png" height="30vw" width="30vw"><img\</a></li>
+                  <li><a href=""><img src="img\instagram logo.png" height="30vw" width="30vw"><img\</a></li>
+                  <li><a href=""><img src="img\twitter log.png" height="30vw" width="30vw"><img\</a></li>
+              </ul>
+          </div>
+          <p class="end-bar-brand">&#169 Adios Pvt.Ltd CREATED BY TEAM META MATRIX</p>
+      </div>
+  </section>
+
+    
+    <script src="script-shoes.js"></script>
+  </body>
+</html>
